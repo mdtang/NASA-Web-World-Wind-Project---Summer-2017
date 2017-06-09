@@ -16,4 +16,11 @@ function eventWindowLoaded() {
     wwd.addLayer(new WorldWind.CompassLayer());
     wwd.addLayer(new WorldWind.CoordinatesDisplayLayer(wwd));
     wwd.addLayer(new WorldWind.ViewControlsLayer(wwd));
+
+    var placemarkLayer = new WorldWind.RenderableLayer("Placemarks");
+    var placemark = new WorldWind.Placemark(new WorldWind.Position(latitude, longitude, altitude));
+
+    placemarkLayer.addRenderable(placemark);
+
+    wwd.addLayer(placemarkLayer);
 }
