@@ -1,0 +1,27 @@
+/* all links */ a {
+    color:white;
+}
+
+
+.jumbotron {
+    text-align:center;
+    background-color:darkslateblue;
+}
+
+canvas {
+    width: 100%;
+    height: auto;
+    background-color:aliceblue;
+}
+
+.button1 {
+    background-color:black;
+}
+
+.button2 {
+    background-color:lightgray;
+}
+
+.button3 {
+    background-color:darkgrey;
+}
